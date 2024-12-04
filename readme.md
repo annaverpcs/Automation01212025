@@ -4,7 +4,7 @@
 
 ### Clone the Repository:
 ```bash
-git clone https://github.com/pcs-automation-class/class-sep-24.git
+git clone https://github.com/annaverpcs/test_automation_python.git
 cd your-repository-folder
 ```
 
