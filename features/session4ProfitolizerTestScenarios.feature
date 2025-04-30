@@ -10,7 +10,7 @@ Feature: Profitolizer Login Test Scenarios for functional testing
     Then Wait for the element with xpath "//h5" to be present
     And Verify that xpath "//h5" should contain text "Login to Your Account"
     Then Verify that xpath "//p[@class='text-center small']" should contain text "Enter your username & password to login"
-
+  @smoke
   Scenario: Login with valid username and valid password
 
     #fill out email and password text fields for login form

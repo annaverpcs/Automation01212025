@@ -116,3 +116,4 @@ def step_impl(context, xpath, expected_text):
 @step('Wait for the element with xpath "{xpath}" to be present')
 def step_impl(context, xpath):
     WebDriverWait(context.driver, 20).until(EC.presence_of_element_located((By.XPATH, xpath)))
+

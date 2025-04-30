@@ -1,6 +1,6 @@
 # Created by averkhovskaya at 4/2/25
 Feature: First exercise with functional testing
-
+  @regression
   Scenario: Yahoo Web Search with valid text
     Given Open "https://search.yahoo.com/"
     Then Type "Python" into "//input[@id='yschsp']"
